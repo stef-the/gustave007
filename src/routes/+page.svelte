@@ -9,7 +9,22 @@
             title: 'Why Goonstave',
             description: ':)',
             image: 'gustave0.jpg',
-        }
+        },
+        {
+            title: 'Why Goonstave',
+            description: ':)',
+            image: 'omarjmel0.jpg',
+        },
+        {
+            title: 'Why Goonstave',
+            description: ':)',
+            image: 'gustave1.jpg',
+        },
+        {
+            title: 'Why Goonstave',
+            description: ':)',
+            image: 'edouard1.jpg',
+        },
     ]
 </script>
 
@@ -19,7 +34,7 @@
 </div>
 {#each cards as card}
     <div class='card'>
-        <div class='cardimage' style='background-image: url("{card.image}");'></div>
+        <div class='cardimage' style='background-image: url("https://raw.githubusercontent.com/stef-the/gustave007/main/static/{card.image}");'></div>
         <div>
             <h2>{card.title}</h2>
             <p>{card.description}</p>
@@ -64,6 +79,7 @@
     border-radius: 0.5rem;
     background-color: red;
     margin-right: 1rem;
+    background-size: cover;
   }
   .card h2 {
     margin-bottom: 0.5rem;

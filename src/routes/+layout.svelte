@@ -19,6 +19,6 @@
         font-family: Helvetica, sans-serif;
         color: var(--main-text);
         background-color: var(--main);
-        overflow: hidden;
+        overflow-x: hidden;
     }
 </style>
